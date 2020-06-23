@@ -30,7 +30,17 @@ class MyApp extends StatelessWidget {
                 color: Colors.teal.shade100,
                 letterSpacing: 2.5,
               )
-            )
+            ),
+            Container(
+              child: Row(
+                children: <Widget>[
+                  Icon(
+                    Icons.phone,
+                  ),
+                  Text('08091086269')
+                ],
+              ),
+            ),
           ],
         ),
       ),
