@@ -37,7 +37,8 @@ class MyApp extends StatelessWidget {
                   Icon(
                     Icons.phone,
                   ),
-                  Text('08091086269')
+                  Text('08091086269'),
+                  SizedBox(height: 10.0,),
                 ],
               ),
             ),
